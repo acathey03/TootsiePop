@@ -1,0 +1,10 @@
+print("How many licks does it take to get to the center of a Tootsie Pop?")
+print("a-Let's find out")
+
+lick = input("\nDid you reach the center? Y or N:  ")
+
+while lick == "N":
+    lick = input("Did you reach the center? Y or N:  ") 
+Counter = lick.count("N")
+print("\nA-crunch... ")
+print(Counter)
